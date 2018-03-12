@@ -78,7 +78,7 @@ mutation {
 Update Author
 ```
 mutation {
-	updateAuthor(id, name) {
+    updateAuthor(id, name) {
         id
         name
         age
