@@ -19,8 +19,8 @@ $ npm start
 
 ## Run on Browser
 
-- Go to `localhost:4000/graphiql`
-- Run following queries / mutations
+1. Go to `localhost:4000/graphiql`
+2. Run following queries / mutations
 
 Get all authors
 ```
