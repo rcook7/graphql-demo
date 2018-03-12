@@ -1,5 +1,12 @@
 # Graph QL Demo
 
+## Set mongodb uri
+1. Create .env file
+2. Add following line
+```
+DB_URI=<mongodb uri>
+```
+
 ## Install
 ```
 $ npm install
