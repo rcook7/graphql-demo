@@ -14,6 +14,7 @@ $ npm start
 
 - Go to `localhost:4000/graphiql`
 - Run following queries / mutations
+
 Get all authors
 ```
 {
@@ -50,4 +51,38 @@ Get Author by Id
 }
 ```
 
+Add author
+```
+mutation {
+    addAuthor(name, age, books) {
+        id
+        name
+        age
+        books
+    }
+}
+```
 
+Delete Author
+```
+mutation {
+  deleteAuthor(id) {
+    id
+    name
+    age
+    books
+  }
+}
+```
+
+Update Author
+```
+mutation {
+	updateAuthor(id, name) {
+        id
+        name
+        age
+        books
+    }
+}
+```
